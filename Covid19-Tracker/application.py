@@ -6,6 +6,7 @@ Date: 8th Feb 2022
 """
 
 import streamlit as st
+import plotly
 import plotly.express as px
 from data_preparation import prepare
 from filter_preparation import filters
