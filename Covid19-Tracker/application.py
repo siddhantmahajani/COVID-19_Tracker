@@ -2,7 +2,7 @@
 Author: Siddhant Mahajani
 Program: app.py
 Description: Web application to perform track covid cases in India using streamlit
-Date: 8th Feb 2022
+Date: 04/09/2024
 """
 
 import streamlit as st

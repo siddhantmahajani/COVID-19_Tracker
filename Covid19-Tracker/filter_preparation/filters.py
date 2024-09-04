@@ -2,7 +2,7 @@
 Author: Siddhant Mahajani
 Program: filters.py
 Description: This program is to prepare filters for selection of data for graphs of covid cases in India
-Date: 8th Feb 2022
+Date: 04/09/2024
 """
 
 import warnings

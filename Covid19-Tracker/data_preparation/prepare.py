@@ -2,12 +2,13 @@
 Author: Siddhant Mahajani
 Program: prepare.py
 Description: This program is to prepare state wise distribution of covid cases in India
-Date: 8th Feb 2022
+Date: 04/09/2024
 """
 
 import requests
 import pandas
 import warnings
+import json
 
 warnings.filterwarnings("ignore")
 
@@ -15,7 +16,7 @@ DATA_URL = "https://api.covid19india.org/state_district_wise.json"
 
 
 def getData():
-    data = ((requests.get(DATA_URL)).json())
+    data = requests.get(DATA_URL).json()
     return data
 
 
